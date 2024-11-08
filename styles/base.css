@@ -126,8 +126,9 @@ li a:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  #resourceslinksil{
-    
+  #photo{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #003049, 0 6px 20px 0 #003049;
   }
 
   .resources-ancor:hover{
