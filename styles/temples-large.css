@@ -15,11 +15,11 @@
     }
     
     main {
-        max-width: 800px;
+        max-width: 80%;
         margin: 0 auto;
     }
     
-    .gallery {
+    .temples {
         grid-template-columns: repeat(3, 1fr);
     }
 

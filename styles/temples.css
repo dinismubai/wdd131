@@ -11,6 +11,11 @@ body {
     color: #d62828;
 }
 
+
+header h1 {
+    font-size: 1.6rem;
+}
+
 header {
     background-color: #003049;
     color: #eae2b7;
@@ -19,10 +24,6 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
-}
-
-header h1 {
-    font-size: 1.6rem;
 }
 
 #menu-toggle {
@@ -63,7 +64,7 @@ main {
     text-align: center;
 }
 
-.gallery {
+.temples {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.2rem;
@@ -105,7 +106,7 @@ footer {
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: #eae2b7;
+    background-color: #f77f00;
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 4px 6px #eae2b7;
@@ -132,9 +133,9 @@ footer {
     transition: background-color 0.3s;
 }
 
-#main-nav.hidden {
+/*#main-nav.hidden {
     display: none;
-}
+}*/
 
 #main-nav.active {
     display: flex;
