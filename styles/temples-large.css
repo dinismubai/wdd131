@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #menu-toggle {
+        display: none;
+    }
+    
+    nav {
+        display: flex;
+
+    }
+    
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .navli{
+        margin: 20px;
+    }
+
+    .navli a:hover{
+        background-color: #d62828;
+    }
+    
+    .ali{
+        font-size: 1.3rem;
+    }
+
+    #main-nav {
+        display: flex;
+        position: static;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    #main-nav ul {
+        gap: 20px;
+    }
+  }
