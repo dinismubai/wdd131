@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Dinis Manuel Mubai, Country, Weather, Data, Responsive">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Dinis M. Mubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Country Page</title>
+
+        <link href="styles/country.css" rel="stylesheet">
+        <link href="styles/country-large.css" rel="stylesheet">
+        <script defer src="scripts/weather.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="countryh1">Mozambique</h1>
+        </header>
+
+        <main id="home-grid">
+
+            <div id="heroimage">
+                    <img id="heroimg" src="images/pic1.jpg" alt="Hero image">
+            </div>
+
+             <div id="image">
+                <img id="screen-image" src="images/coconut-small.jpg" alt="Animals">
+             </div>
+
+             <div id="data">
+                <br>
+                <h2 class="caption">Data</h2><br>
+                <p class="datainfo">                  <b>Area:</b>   587,041 sq km</p>
+                <p class="datainfo">        <b>Population:</b>   27,691,018</p>
+                <p class="datainfo">              <b>Capital:</b>   Maputo</p>
+                <p class="datainfo">        <b>Languages:</b>   Portuguese</p>
+                <p class="datainfo">           <b>Currency:</b>   Metical (MZN)</p>
+                <p class="datainfo">         <b>Time Zone:</b>   UTC+2</p>
+                <p class="datainfo">      <b>Calling Code:</b>   +258</p>
+                <p class="datainfo">      <b>Internet TLD:</b>   .mz</p>
+                <br>
+                <hr>
+
+             </div>
+
+             <div id="weather">
+                <br>
+                <h2 class="caption">Weather</h2>
+                    <img id="weather-icon" src="images/weather.svg" alt="Weather">
+                    <p id="temperature" class="datainfo">      <b>Temperature:</b>   30ºC</p>
+                    <p id="condition" class="datainfo">         <b>Conditions:</b>   Partly Cloudy</p>
+                    <p id="wind" class="datainfo">                 <b>Winds:</b>   6 km/h</p>
+                    <p id="windchill"><b>          Wind Chill:</b>   <span id="chill"></span></p>
+             </div>
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">&copy; <span id="year"></span> .:|:. Dinis M. Mubai .:|:. Maputo</p><br>
+            <p class="lastupdate">Last modified: <span id="lastmodified"></span></p>
+            <script src="scripts/getdates.js"></script>
+        </footer>
+        
+    </body>
+
+</html>
