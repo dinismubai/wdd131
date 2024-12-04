@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+
+    
+    main {
+        margin-left: 20%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #large-img{
+        width: 800px;
+        min-height: 800px;
+    }
+
+    #site-name{
+        width: 75%;
+        text-align: center;
+    }
+    
+    #site-purpose{
+        width: 75%;
+        text-align: center;
+    }
+    
+    #scenarios{
+        width: 75%;
+        text-align: center;
+    }
+    
+    #color-schema{
+        width: 75%;
+        text-align: center;
+    }
+    
+    #typography{
+        width: 75%;
+        text-align: center;
+    }
+    
+    #wireframe{
+        width: 75%;
+        text-align: center;
+    }
+    
+
+}

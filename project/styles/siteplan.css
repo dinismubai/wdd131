@@ -1,0 +1,125 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@300&family=Quicksand:wght@300&display=swap');*/
+:root {
+    --text-color: #d62828;  /* Define a global CSS variable */
+    --text-style: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  title::after {
+    content: " - WDD131";
+    font-style: italic;
+    color: grey;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--text-style);
+    color: var(--text-color);
+}
+
+header {
+    background-color: #003049;
+    color: #eae2b7;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 1.6rem;
+	text-align: center;
+}
+
+/*ul{
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    align-items: center;
+    text-align: center;
+}*/
+
+p{
+    text-align: center;
+    align-items: center;
+}
+
+figure{
+    text-align: center;
+}
+
+#large-img{
+    width: 400px;
+    min-height: 400px;
+}
+
+#small-img{
+    width: 400px;
+    min-height: 500px;
+}
+
+#home-grid{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 2fr;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+#site-name{
+    grid-column: 1;
+    grid-row: 1;
+    border: #fcbf49 solid;
+}
+
+#site-purpose{
+    grid-column: 1;
+    grid-row: 2;
+    border: #fcbf49 solid;
+}
+
+#scenarios{
+    grid-column: 1;
+    grid-row: 3;
+    border: #fcbf49 solid;
+}
+
+#color-schema{
+    grid-column: 1;
+    grid-row: 4;
+    border: #fcbf49 solid;
+}
+
+#typography{
+    grid-column: 1;
+    grid-row: 5;
+    border: #fcbf49 solid;
+}
+
+#wireframe{
+    grid-column: 1;
+    grid-row: 6;
+    border: #fcbf49 solid;
+}
+
+.caption{
+	text-align: center;
+	font-family: var(--text-style);
+}
+
+/*Footer*/
+footer {
+    background-color: #003049;
+    color: #eae2b7;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
