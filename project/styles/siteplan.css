@@ -32,6 +32,7 @@ header {
 }
 
 header h1 {
+    display: flex;
     font-size: 1.6rem;
 	text-align: center;
 }
@@ -56,16 +57,17 @@ figure{
 }
 
 #large-img{
-    width: 400px;
-    min-height: 400px;
+    width: 100%;
+    min-height: 100%;
 }
 
 #small-img{
-    width: 400px;
+    width: 100%;
     min-height: 500px;
 }
 
 #home-grid{
+   
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 2fr;

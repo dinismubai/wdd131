@@ -41,6 +41,12 @@
         width: 75%;
         text-align: center;
     }
+
+    #small-img{
+        width: 400px;
+        min-height: 500px;
+    }
+
     
 
 }
