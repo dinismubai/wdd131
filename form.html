@@ -10,6 +10,10 @@
 
         <link href="styles/form.css" rel="stylesheet">
         <link href="styles/form-large.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
         
     </head>
 
@@ -30,31 +34,31 @@
                     <div class="rating-option">
                       <div class="stars">★</div>
                       <input type="radio" class="rating1" name="rating" value="1" required>
-                      <label for="rating1"></label>
+                      
                     </div>
                 
                     <div class="rating-option">
                       <div class="stars">★★</div>
                       <input type="radio" class="rating1" name="rating" value="2" required>
-                      <label for="rating2"></label>
+                      
                     </div>
                 
                     <div class="rating-option">
                       <div class="stars">★★★</div>
                       <input type="radio" class="rating1" name="rating" value="3" required>
-                      <label for="rating3"></label>
+                      
                     </div>
                 
                     <div class="rating-option">
                       <div class="stars">★★★★</div>
                       <input type="radio" class="rating1" name="rating" value="4" required>
-                      <label for="rating4"></label>
+                      
                     </div>
                 
                     <div class="rating-option">
                       <div class="stars">★★★★★</div>
                       <input type="radio" class="rating1" name="rating" value="5" required>
-                      <label for="rating5"></label>
+                      
                     </div>
                   </div><br><br>
 
@@ -75,7 +79,7 @@
                   </div><br><br>
                 
                   <label class="top" for="review">Written Review</label>
-                  <input type="text" id="review" name="writtenReview" placeholder="Write a review">
+                  <textarea id="review" name="writtenReview" placeholder="Write a review"></textarea>
 
                     <br>
                     <label class="top" for="name">Your Name</label>
@@ -92,7 +96,7 @@
             <script src="scripts/getdates.js"></script>
             
         </footer>
-        <script src="scripts/form.js"></script>
+        <script src="scripts/form.js" defer></script>
         <!--<script src="scripts/review.js"></script>-->
     </body>
 
