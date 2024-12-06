@@ -1,0 +1,36 @@
+@media only screen and (min-width: 35rem) {
+
+
+    #product-select {
+        display: block;
+        font-size: 1.2rem;
+        border: solid 1px #d62828;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #d62828;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        margin-left: 39vw;
+    }
+
+    #date{
+        display: block;
+        font-size: 1.2rem;
+        border: solid 1px #d62828;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #d62828;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        margin-left: 39vw;
+    }
+    
+
+    #checkboxes{
+
+        text-align: left;
+        margin-left: 39vw;
+    }
+}

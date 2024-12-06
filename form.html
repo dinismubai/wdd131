@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Dinis Manuel Mubai, Forms">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Dinis M. Mubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Country Page</title>
+
+        <link href="styles/form.css" rel="stylesheet">
+        <link href="styles/form-large.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <header>
+            <h1 id="countryh1">Product Review</h1>
+        </header>
+
+        <main id="main-grid">
+            <form id="form-grid" method="get" action="review.html">
+                <label class="top">Product Name</label>
+                <select name="productSelect" id="product-select" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select><br><br>
+
+                <label class="top">Overall Rating</label>
+                <div class="star-rating">
+                    <div class="rating-option">
+                      <div class="stars">★</div>
+                      <input type="radio" class="rating1" name="rating" value="1" required>
+                      <label for="rating1"></label>
+                    </div>
+                
+                    <div class="rating-option">
+                      <div class="stars">★★</div>
+                      <input type="radio" class="rating1" name="rating" value="2" required>
+                      <label for="rating2"></label>
+                    </div>
+                
+                    <div class="rating-option">
+                      <div class="stars">★★★</div>
+                      <input type="radio" class="rating1" name="rating" value="3" required>
+                      <label for="rating3"></label>
+                    </div>
+                
+                    <div class="rating-option">
+                      <div class="stars">★★★★</div>
+                      <input type="radio" class="rating1" name="rating" value="4" required>
+                      <label for="rating4"></label>
+                    </div>
+                
+                    <div class="rating-option">
+                      <div class="stars">★★★★★</div>
+                      <input type="radio" class="rating1" name="rating" value="5" required>
+                      <label for="rating5"></label>
+                    </div>
+                  </div><br><br>
+
+                  <label class="top" for="date">Date of Installation</label>
+                  <input id="date" type="date" name="data-installation" required><br><br>
+
+                  <label class="top">Which features did you find useful in the product?<br>
+                  (<i>Check all that apply</i>)</label><br>
+                  <div id="checkboxes">
+                    <input type="checkbox" id="durability" name="colors" value="red">
+                    <label class="check-label" for="durability">Durability</label><br>
+                    <input type="checkbox" id="usage" name="colors" value="blue">
+                    <label class="check-label" for="usage">Ease of Use</label><br>
+                    <input type="checkbox" id="performance" name="colors" value="green">
+                    <label class="check-label" for="performance">Performance</label><br>
+                    <input type="checkbox" id="design" name="colors" value="green">
+                    <label class="check-label" for="design">Design</label>
+                  </div><br><br>
+                
+                  <label class="top" for="review">Written Review</label>
+                  <input type="text" id="review" name="writtenReview" placeholder="Write a review">
+
+                    <br>
+                    <label class="top" for="name">Your Name</label>
+                    <input type="text" id="name" name="yourName" placeholder="">
+                    <br>
+                    <br>
+                    <input id="button" type="submit" value="Post Review" class="submitBtn">
+                </form>
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">&copy; <span id="year"></span> .:|:. Dinis M. Mubai .:|:. Maputo</p><br>
+            <p class="lastupdate">Last modified: <span id="lastmodified"></span></p>
+            <script src="scripts/getdates.js"></script>
+            
+        </footer>
+        <script src="scripts/form.js"></script>
+        <!--<script src="scripts/review.js"></script>-->
+    </body>
+
+</html>
