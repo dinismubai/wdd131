@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Dinis Manuel Mubai, Final Project, Flavours, Recipes">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Dinis M. Mubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Flavors of Mozambique</title>
+
+        <link href="styles/flavors.css" rel="stylesheet">
+        <link href="styles/flavors-large.css" rel="stylesheet">
+        <script defer src="scripts/flavors.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <h1 id="brand">MZ Flavors</h1>
+            <div id="social-icons">
+                <a href="#"><img id="face-icon" src="images/face.svg" alt="Facebook Icon"></a>
+                <a href="#"><img id="insta-icon" src="images/insta.svg" alt="Instagram Icon"></a>
+            </div>
+            <button id="menu-toggle">☰</button>
+            <nav id="main-nav" class="hidden">
+                <ul>
+                    <li class="navli"><a class="ali" href="flavors.html">Home</a></li>
+                    <li class="navli"><a class="ali" href="savory.html">Savory</a></li>
+                    <li class="navli"><a class="ali" href="sweets.html">Sweets</a></li>
+                    <!--<li class="navli"><a class="ali" href="contact.html">Contact us</a></li>-->
+                </ul>
+            </nav>
+        </header>
+
+        <main id="sweets-grid">
+            
+            <div id="coconut-pic">
+                <h1>Matoritori</h1><br>
+                <img id="coconut-img" src="images/coconut-small.jpg" alt="Coconut sweet">
+            </div>
+
+            <div id="coconut-recipe">
+                <h2><b>Ingredients</b></h2>
+                <ul>
+                    <li>2 cups grated coconut (fresh or desiccated)</li>
+                    <li>1 cup sugar</li>
+                    <li>1/4 cup water</li>
+                    <li>1 tsp vanilla extract (optional)</li>
+                </ul><br>
+
+                <h2><b>Instructions</b></h2>
+                <ol>
+                    <li><b>Make Syrup</b>: In a pan, combine sugar and water. Heat until it forms a thick syrup.</li>
+                    <li><b>Add Coconut</b>: Stir in grated coconut and cook on low heat, stirring constantly, until the mixture thickens and turns golden.</li>
+                    <li><b>Shape Candy</b>: Remove from heat, spoon the mixture onto a greased surface, and shape into small mounds or squares.</li>
+                    <li><b>Cool</b>: Let it cool completely before serving.</li>
+                </ol>
+
+            </div>
+
+            <!--Matapa com camarao-->
+            <div id="malambe-pic">
+                <h1>Malambe ice-cream</h1><br>
+                <img id="malambe-img" src="images/icecream-small.jpg" alt="Malambe">
+            </div>
+
+            <div id="malambe-recipe">
+                <h2><b>Ingredients</b></h2>
+                <ul>
+                    <li>1 cup baobab fruit powder (malambe)</li>
+                    <li>2 cups heavy cream</li>
+                    <li>1 cup milk</li>
+                    <li>3/4 cup sugar</li>
+                    <li>1 tsp vanilla extract (optional)</li>
+                    <li>Pinch of salt</li>
+                </ul><br>
+
+                <h2><b>Instructions</b></h2>
+                <ol>
+                    <li><b>Mix Ingredients</b>: In a bowl, whisk baobab powder, sugar, milk, and a pinch of salt until fully dissolved.</li>
+                    <li><b>Add Cream</b>: Stir in heavy cream and vanilla extract. Mix well.</li>
+                    <li><b>Chill</b>: Refrigerate the mixture for 2–4 hours to cool.</li>
+                    <li><b>Churn</b>: Pour into an ice cream maker and churn according to the manufacturer's instructions.</li>
+                    <li><b>Freeze</b>: Transfer to a container and freeze for 2–3 hours before serving.</li>
+                </ol>
+
+            </div>
+
+            <!--Guizado de vaca-->
+            <div id="sura-pic">
+                <h1>Coconut cake</h1>
+                <img id="stew-img" src="images/sura-small.jpg" alt="Toddy cake">
+
+            </div>
+
+            <div id="sura-recipe">
+                <h2><b>Ingredients</b></h2>
+                <ul>
+                    <li>2 cups all-purpose flour</li>
+                    <li>1 cup sura (fermented coconut sap)</li>
+                    <li>3/4 cup sugar</li>
+                    <li>1/2 cup coconut milk</li>
+                    <li>1/4 cup vegetable oil</li>
+                    <li>1 tsp baking powder</li>
+                    <li>1/2 tsp salt</li>
+                </ul><br>
+
+                <h2><b>Instructions</b></h2>
+                <ol>
+                    <li><b>Preheat Oven</b>: Set oven to 180°C (350°F) and grease a cake pan.</li>
+                    <li><b>Mix Dry Ingredients</b>: Combine flour, baking powder, and salt in a bowl.</li>
+                    <li><b>Prepare Batter</b>: In another bowl, whisk sura, sugar, coconut milk, and oil until smooth. Gradually add the dry ingredients, mixing until combined.</li>
+                    <li><b>Bake</b>: Pour batter into the pan and bake for 30–35 minutes, or until a toothpick comes out clean.</li>
+                    <li><b>Cool and Serve</b>: Allow to cool before slicing.</li>
+                </ol>
+
+            </div>
+
+
+        
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">&copy; <span id="year"></span> .:|:. Dinis M. Mubai .:|:. Maputo</p><br>
+            <p class="lastupdate">Last modified: <span id="lastmodified"></span></p>
+            <script src="scripts/getdates.js"></script>
+        </footer>
+        
+    </body>
+
+</html>

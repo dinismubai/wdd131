@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Dinis Manuel Mubai, Final Project, Flavours, Recipes">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Dinis M. Mubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Flavors of Mozambique</title>
+
+        <link href="styles/flavors.css" rel="stylesheet">
+        <link href="styles/flavors-large.css" rel="stylesheet">
+        <script defer src="scripts/flavors.js"></script>
+        <script defer src="scripts/title.js"></script>
+        <script defer src="scripts/dish.js"></script>
+        <script defer src="scripts/sweet.js"></script>
+    </head>
+
+    <body>
+        <header>
+           <h1 id="brand">MZ Flavors</h1>
+            <div id="social-icons">
+                <a href="#"><img id="face-icon" src="images/face.svg" alt="Facebook Icon"></a>
+                <a href="#"><img id="insta-icon" src="images/insta.svg" alt="Instagram Icon"></a>
+            </div>
+            <button id="menu-toggle">☰</button>
+            <nav id="main-nav" class="hidden">
+                <ul>
+                    <li class="navli"><a class="ali" href="flavors.html">Home</a></li>
+                    <li class="navli"><a class="ali" href="savory.html">Savory</a></li>
+                    <li class="navli"><a class="ali" href="sweets.html">Sweets</a></li>
+                    <!--<li class="navli"><a class="ali" href="contact.html">Contact us</a></li>-->
+                </ul>
+            </nav>
+        </header>
+
+        <main id="home-grid">
+            <div id="hero-grid">
+                <h1><span id="dynamic-title">TITLE</span></h1>
+                <img id="hero-img-small" src="images/hero-small.webp" alt="Hero Image">
+                <!--<img id="hero-img-large" src="images/hero.jpg" alt="Hero Image">-->
+            </div>
+
+            <div id="dish-day">
+                <h1 class="h1-label">DISH OF THE DAY</h1>
+
+            </div>
+
+            <div id="sweet-day">
+                <h1 class="h1-label">SWEET OF THE DAY</h1>
+
+            </div>
+
+        
+        
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">&copy; <span id="year"></span> .:|:. Dinis M. Mubai .:|:. Maputo</p><br>
+            <p class="lastupdate">Last modified: <span id="lastmodified"></span></p>
+            <script src="scripts/getdates.js"></script>
+        </footer>
+        
+    </body>
+
+</html>

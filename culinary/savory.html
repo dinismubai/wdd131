@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Dinis Manuel Mubai, Final Project, Flavours, Recipes">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Dinis M. Mubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Flavors of Mozambique</title>
+
+        <link href="styles/flavors.css" rel="stylesheet">
+        <link href="styles/flavors-large.css" rel="stylesheet">
+        <script defer src="scripts/flavors.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+           <h1 id="brand">MZ Flavors</h1>
+            <div id="social-icons">
+                <a href="#"><img id="face-icon" src="images/face.svg" alt="Facebook Icon"></a>
+                <a href="#"><img id="insta-icon" src="images/insta.svg" alt="Instagram Icon"></a>
+            </div>
+            <button id="menu-toggle">☰</button>
+            <nav id="main-nav" class="hidden">
+                <ul>
+                    <li class="navli"><a class="ali" href="flavors.html">Home</a></li>
+                    <li class="navli"><a class="ali" href="savory.html">Savory</a></li>
+                    <li class="navli"><a class="ali" href="sweets.html">Sweets</a></li>
+                    <!--<li class="navli"><a class="ali" href="contact.html">Contact us</a></li>-->
+                </ul>
+            </nav>
+        </header>
+
+        <main id="savory-grid">
+            <!--Frango a Zambeziana-->
+            
+            <div id="zambeziana-pic">
+                <h1>Zambezian Chicken</h1><br>
+                <img id="zambezian-img" src="images/zambeziana-small.jpg" alt="Zambezian chicken">
+            </div>
+
+            <div id="zambeziana-recipe">
+                <h2><b>Ingredients</b></h2>
+                <ul>
+                    <li>1 whole chicken (cut in halves or quarters)</li>
+                    <li>1 cup coconut milk</li>
+                    <li>4 garlic cloves (minced)</li>
+                    <li>2 lemons (juice)</li>
+                    <li>1 tsp paprika</li>
+                    <li>1 tsp chili flakes (optional)</li>
+                    <li>Salt and pepper to taste</li>
+                </ul><br>
+
+                <h2><b>Instructions</b></h2>
+                <ol>
+                    <li><b>Prepare Marinade</b>: Mix coconut milk, garlic, lemon juice, paprika, chili flakes, salt, and pepper.</li>
+                    <li><b>Marinate</b>: Coat the chicken and let it marinate for at least 2 hours (preferably overnight).</li>
+                    <li><b>Grill</b>: Cook over medium heat on a grill, basting with leftover marinade until golden and cooked through.</li>
+                    <li><b>Serve</b>: Pair with steamed rice, cassava, or a fresh salad.</li>
+                </ol>
+
+            </div>
+
+            <!--Matapa com camarao-->
+            <div id="matapa-pic">
+                <h1>Matapa with shrimp</h1><br>
+                <img id="matapa-img" src="images/matapa-small.jpg" alt="Matapa dish">
+            </div>
+
+            <div id="matapa-recipe">
+                <h2><b>Ingredients</b></h2>
+                <ul>
+                    <li>2 cups cassava leaves (finely chopped or ground)</li>
+                    <li>1 lb shrimp (peeled and cleaned)</li>
+                    <li>1 cup coconut milk</li>
+                    <li>1/4 cup peanuts (ground)</li>
+                    <li>1 small onion (chopped)</li>
+                    <li>2 garlic cloves (minced)</li>
+                    <li>2 tbsp vegetable oil</li>
+                    <li>Salt to taste</li>
+                </ul><br>
+
+                <h2><b>Instructions</b></h2>
+                <ol>
+                    <li><b>Cook the Cassava Leaves</b>: In a pot, heat oil and sauté onion and garlic. Add cassava leaves and cook for 5 minutes.</li>
+                    <li><b>Add Coconut and Peanuts</b>: Stir in coconut milk and ground peanuts. Simmer for 15–20 minutes.</li>
+                    <li><b>Add Shrimp</b>: Mix in shrimp, season with salt, and cook until shrimp are pink and tender (about 5–7 minutes).</li>
+                    <li><b>Serve</b>: Enjoy with rice or xima (Mozambican cornmeal).</li>
+                </ol>
+
+            </div>
+
+            <!--Guizado de vaca-->
+            <div id="guizado-pic">
+                <h1>Beef stew</h1>
+                <img id="stew-img" src="images/stew-small.jpg" alt="Stew dish">
+
+            </div>
+
+            <div id="guizado-recipe">
+                <h2><b>Ingredients</b></h2>
+                <ul>
+                    <li>1 lb beef (cubed)</li>
+                    <li>1 cup coconut milk</li>
+                    <li>2 tomatoes (chopped)</li>
+                    <li>1 onion (chopped)</li>
+                    <li>3 garlic cloves (minced)</li>
+                    <li>1 tsp curry powder</li>
+                    <li>2 tbsp vegetable oil</li>
+                    <li>Salt and pepper to taste</li>
+                </ul><br>
+
+                <h2><b>Instructions</b></h2>
+                <ol>
+                    <li><b>Sauté Aromatics</b>: Heat oil in a pot. Sauté onion and garlic until fragrant.</li>
+                    <li><b>Cook Beef</b>: Add beef cubes, curry powder, salt, and pepper. Brown the meat.</li>
+                    <li><b>Simmer</b>: Add tomatoes and coconut milk. Cover and simmer for 30–40 minutes until beef is tender.</li>
+                    <li><b>Serve</b>: Pair with rice, xima, or bread.</li>
+                </ol>
+
+            </div>
+
+
+        
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">&copy; <span id="year"></span> .:|:. Dinis M. Mubai .:|:. Maputo</p><br>
+            <p class="lastupdate">Last modified: <span id="lastmodified"></span></p>
+            <script src="scripts/getdates.js"></script>
+        </footer>
+        
+    </body>
+
+</html>

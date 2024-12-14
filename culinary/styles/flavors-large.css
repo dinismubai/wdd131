@@ -1,0 +1,231 @@
+@media (min-width: 64rem) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+    
+    #menu-toggle {
+        display: none;
+    }
+    
+    nav {
+        display: flex;
+
+    }
+    
+    main {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .navli{
+        margin: 20px;
+    }
+
+    .navli a:hover{
+        background-color: #d62828;
+    }
+    
+    .ali{
+        font-size: 1.3rem;
+    }
+
+    #main-nav {
+        display: flex;
+        position: static;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    #main-nav ul {
+        gap: 20px;
+    }
+
+    /****************************FRESH WORK************************************************/
+#insta-icon{
+    width: 3vw;
+    height: 5vh;
+    margin-left: 3vw;
+}
+
+#face-icon{
+    width: 3vw;
+    height: 5vh;
+}
+
+#social-icons{
+    margin-left: 45vw;
+}
+
+#home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    /*width: 97vw;
+    height: 95vh;*/
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/hero.jpg");
+}
+
+#dish-day{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: beige;
+    opacity: 0.9;
+}
+
+#sweet-day{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: beige;
+    opacity: 0.9;
+}
+
+#hero-img-small{
+    display: none;
+}
+
+#dynamic-title{
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 30%;
+    background-color: beige;
+    width: 26vw;
+    height: 12vh;
+}
+
+/********************************************SAVORY********************************************/
+#savory-grid{
+    display: grid;
+    grid-template-columns: 550px 520px 300px;
+    grid-template-rows: 300px 600px;
+    gap: 5px;
+}
+
+#zambeziana-pic{
+    grid-row: 1;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    margin-left: 3vw;
+}
+
+#zambeziana-recipe{
+    grid-row: 2;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    text-align: justify;
+    margin-left: 3vw;
+    font-size: 16px;
+}
+
+#matapa-pic{
+    grid-row: 1;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    margin-left: 3vw;
+}
+
+#matapa-recipe{
+    grid-row: 2;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    text-align: justify;
+    margin-left: 3vw;
+    font-size: 16px;
+}
+
+#guizado-pic{
+    grid-row: 1;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    margin-left: 3vw;
+}
+
+#guizado-recipe{
+    grid-row: 2;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    text-align: justify;
+    margin-left: 3vw;
+    font-size: 16px;
+}
+
+/********************************************SWEETS********************************************/
+#sweets-grid{
+    display: grid;
+    grid-template-columns: 550px 520px 300px;
+    grid-template-rows: 350px 550px;
+    gap: 5px;
+}
+
+#coconut-pic{
+    grid-row: 1;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    margin-left: 3vw;
+}
+
+#coconut-recipe{
+    grid-row: 2;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    text-align: justify;
+    margin-left: 3vw;
+    font-size: 16px;
+}
+
+#malambe-pic{
+    grid-row: 1;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    margin-left: 3vw;
+}
+
+#malambe-recipe{
+    grid-row: 2;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    text-align: justify;
+    margin-left: 3vw;
+    font-size: 16px;
+}
+
+#sura-pic{
+    grid-row: 1;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    margin-left: 3vw;
+}
+
+#sura-recipe{
+    grid-row: 2;
+    border: #003049;
+    width: 327px;
+    height: 249px;
+    text-align: justify;
+    margin-left: 3vw;
+    font-size: 16px;
+}
+
+
+  }
