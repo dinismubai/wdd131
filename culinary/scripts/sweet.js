@@ -56,6 +56,7 @@ function generateSweetOfTheDay() {
         const img = document.createElement("img");
         img.id = "sweetoftheday";
         img.src = todayData.imageUrl;
+        img.setAttribute("loading", "lazy");
         img.alt = todayData.description;
         figure.appendChild(img);
 
