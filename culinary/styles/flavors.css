@@ -196,7 +196,7 @@ footer {
 #savory-grid{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 580px 300px 600px 290px 480px;
+        grid-template-rows: 300px 580px 300px 600px 320px 460px;
         gap: 5px;
 }
 
@@ -259,7 +259,7 @@ footer {
 #sweets-grid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 520px 340px 570px 290px 570px;
+    grid-template-rows: 300px 500px 330px 550px 310px 560px;
     gap: 5px;
 }
 
